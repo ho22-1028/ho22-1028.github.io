@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de contacto de Alcom">
+    <meta name="keywords" content="Contacto, Redes Sociales, Alcom">
+    <meta name="author" content="Hamlet Ortiz">
+    <title>Contacto - Alcom</title>
+    <link rel="icon" href="logo alcom.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles_contact.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="logo alcom.png" alt="Logo" height="30"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Loc.html">Ubicacion</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#home">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        <section id="contact">
+            <h2 class="mb-4">Contacto</h2>
+            <form id="contactForm">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            <hr>
+            <div class="image-container">
+                <img src="contacto gif.gif" alt="Imagen" class="image">
+            </div>
+        </section>
+            <h2 class="mb-4">Síguenos en nuestras redes sociales</h2>
+            
+    </main>
+
+    <footer class="mt-4 p-4 bg-light text-center">
+        <div class="container">
+            <a href="https://www.facebook.com" target="_blank" class="text-decoration-none mx-2"><i
+                    class="bi bi-facebook"></i></a>
+            <a href="https://www.twitter.com" target="_blank" class="text-decoration-none mx-2"><i
+                    class="bi bi-twitter"></i></a>
+            <a href="https://www.linkedin.com" target="_blank" class="text-decoration-none mx-2"><i
+                    class="bi bi-linkedin"></i></a>
+            <p class="mt-2">&copy; 2024 Hamlet Ortiz. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

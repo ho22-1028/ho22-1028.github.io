@@ -1,0 +1,133 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.bg-custom {
+    background-color: #91c4e7;
+}
+
+footer a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+
+/* Estilos del formulario de contacto */
+#contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contactForm .form-label {
+    font-weight: bold;
+}
+
+#contactForm .form-control {
+    border-radius: 8px;
+}
+
+/* Estilos de las redes sociales */
+#social-media i {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+#social-media i:hover {
+    color: #007bff;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.image {
+    width: 100%;
+    height: 50%;
+    transition: transform 0.3s ease;
+    
+}
+
+
+/* Modo oscuro */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .navbar,
+body.dark-mode footer {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+}
+
+body.dark-mode a {
+    color: #ffffff !important;
+}
+
+body.dark-mode .navbar a {
+    color: #ffffff;
+}
+
+body.dark-mode .navbar-brand {
+    color: #ffffff;
+}
+
+body.dark-mode footer a {
+    color: #ffffff;
+}
+
+body.dark-mode #contactForm .form-control {
+    background-color: #2e2e2e;
+    color: #ffffff;
+    border: 1px solid #555555;
+}
+
+.contenedores{
+    width: 100%;
+    height: 650px;
+    border: solid rgb(14, 14, 14) 2px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.contenedor1, .contenedor2{
+    flex: auto;
+    border: 2px solid #74afef; 
+    padding: auto;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+
+}
+/* .contenedor1 iframe{
+    float: left;
+} */
+
+.contenedor2 iframe{
+    float: left;
+    margin-right: 10px;
+}
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+    grid-gap: 2px;
+    background-color: gray;
+    padding: 2px;
+    margin: 5px;
+} 
+p.text-div-contenedor{
+    padding: 5px;
+}
